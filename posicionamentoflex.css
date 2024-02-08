@@ -1,0 +1,181 @@
+body{
+    margin: 50px;
+}
+.flex-container {
+    display: flex;
+    background-color: red;
+}
+.flex-container>div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+/*-----*/
+.flex-direction {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+}
+.flex-direction>div {
+    background-color: white;
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px; 
+}
+/*------*/
+
+.flex-wrap {
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-wrap>div {
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    /* flex-flow: row wrap */ 
+}
+.justify-content {
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center; /* flex-start, flex-end, stretch, baseline */
+}
+.justify-content>div{
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+/*------*/
+.align-items {
+    background-color: rebeccapurple;
+    display: flex;
+    height: 200px;
+    align-items: flex-end; /* flex-start, flex-end, stretch, baseline */
+}
+.align-items>div {
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.align-items_base {
+    background-color: rebeccapurple;
+    display: flex;
+    height: 200px;
+    align-items: flex-end; /* flex-start, flex-end, stretch, baseline */
+    
+}
+.align-items_base>div {
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+ /*-------*/ 
+ .align-content {
+    background-color: rgb(153, 51, 107);
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    align-content: space-between; /* flex-start, flex-end, stretch, space-between, space-around */
+    overflow: scroll;
+
+ }
+ .align-content>div {
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+ }
+  
+ /*-----------*/
+
+ .pFlexGrow {
+    display: flex;
+    align-items: stretch;
+    background-color: black;
+ }
+ .pFlexGrow>div {
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+ }
+  /*-----*/
+  .align-self {
+    display: flex;
+    height: 200px;
+    background-color: black;
+  }
+  .align-self>div {
+    background-color: rgb(255, 0, 13);
+    color: white;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+
+  }
+  .align-self2 {
+    display: flex;
+    height: 200px;
+    background-color: black;
+  }
+  .align-self2>div {
+    background-color: rgba(0, 132, 255, 0.753);
+    color: white;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .alinhamentoPerfeito {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+  }
+  .alinhamentoPerfeito>div {
+    background-color: rgba(0, 132, 255, 0.753);
+    color: white;
+    height: 300px;
+    width: 300px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
