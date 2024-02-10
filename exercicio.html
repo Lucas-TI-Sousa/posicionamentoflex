@@ -1,30 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>exercicio</title>
 </head>
+<style>
+    body {
+        background-color: rgb(255, 240, 240);
+        margin: 0 auto ;
+        max-width: 900px;
+        padding: 20px;
+    }
+
+    a {
+        background-color: rgb(226, 216, 216);
+        color: white;
+        text-decoration: none;
+        padding: 12px;
+        border-radius: 3px;
+        font-family: sans-serif;
+        margin: 2px;
+    }
+
+    a:hover {
+        background-color: rgb(107, 104, 104);
+        color: black;
+    }
+
+    img {
+        height: 200px;
+        width: 270px;
+    }
+
+    .clasificação {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    #caixa {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        width: 270px;
+        height: 400px;
+        margin: 10px;
+        padding: 5px;
+        line-height: 20px;
+        font-size: 14px;
+
+
+    }
+</style>
+
 <body>
     <h1>Modelo de Página</h1>
     <hr>
     <h2>Página de teste</h2>
-    <dive></dive>
+
     <td>
-        <dr>Carros</dr>
-        <dr>Pessoas</dr>
-        <dr>Frutas</dr>
+
+        <dr><a href="#">Carros</a></dr>
+        <dr><a href="#">Pessoas</a></dr>
+        <dr><a href="#">Frutas</a></dr>
     </td>
-    <img src="carro-antigo.webp" alt="um carro muito atigo">
-    <img src="carroNovo.jpg" alt="">
-    <img src="citricas.png" alt="">
-    <img src="crianca.png" alt="">
-    <img src="frutas-vermelhas.png" alt="">
-    <img src="idosos.webp" alt="">
-    <img src="populares.jpg" alt="">
-    <img src="verdes.jpg" alt="">
-    
-</dive>
-    
+    <div class="clasificação">
+
+        <div id="caixa">
+            <img src="carro-antigo.webp" alt="um carro muito atigo">
+            <h3>carro-antigo</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae numquam vero, eaque ratione rerum
+                amet facilis, veritatis nobis fugiat itaque</p>
+        </div>
+        <div id="caixa">
+            <img src="carroNovo.jpg" alt="">
+            <h3>carro Novo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam similique accusantium quas debitis
+                minus quibusdam commodi, exercitationem pla</p>
+        </div>
+        <div id="caixa">
+            <img src="populares.jpg" alt="">
+            <h3>populares</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae cum cumque quidem! Nesciunt nulla ullam
+                aliquid veniam voluptatibus! Animi nam ad magn</p>
+        </div>
+        <div id="caixa">
+            <img src="citricas.png" alt="">
+            <h3>citricas</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi optio explicabo velit suscipit quaerat
+                corrupti aliquid, inventore voluptatibluptatibus.</p>
+        </div>
+        <div id="caixa">
+            <img src="verdes.jpg" alt="">
+            <h3>verdes</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laboriosam? A, unde expedita qui quis
+                debitis sit at dolore, odit suscipit saepe o</p>
+        </div>
+        <div id="caixa">
+            <img src="frutas-vermelhas.png" alt="">
+            <h3>frutas-vermelhas</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita iure facere quo quod! Molestias harum
+                cupiditate explicabo nemo vitae quis! Molesti</p>
+        </div>
+        <div id="caixa">
+            <img src="idosos.webp" alt="">
+            <h3>idosos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, facilis soluta rerum culpa nobis quos
+                porro repellendus autem. Eos possimus odio acc</p>
+        </div>
+        <div id="caixa">
+            <img src="crianca.png" alt="">
+            <h3>crianca</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat illo facilis itaque sunt culpa
+                accusantium veniam quam? Reiciendis, sed quas. Asper</p>
+        </div>
+        <div id="caixa">
+            <img src="adultos.jpg" alt="">
+            <h3>adulto</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat illo facilis itaque sunt culpa
+                accusantium veniam quam? Reiciendis, sed quas. Asper</p>
+        </div>
+
+
+    </div>
+
 </body>
+
 </html>
